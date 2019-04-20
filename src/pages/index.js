@@ -5,7 +5,8 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Button from "react-bootstrap/Button"
-import { Jumbotron, Container } from "react-bootstrap";
+import { Jumbotron, Container, Card } from "react-bootstrap";
+import Content from "../components/content"
 
 const IndexPage = () => (
   <Layout>
@@ -28,6 +29,7 @@ const IndexPage = () => (
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link>
+    <Content></Content>
   </Layout>
 )
 
