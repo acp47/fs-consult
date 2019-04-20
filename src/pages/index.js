@@ -4,10 +4,23 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Button from "react-bootstrap/Button"
+import { Jumbotron, Container } from "react-bootstrap";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+        <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+  <Jumbotron fluid>
+ <Container>
+ <Image></Image>
+   <h1>Flemming Sørensen</h1>
+   <p>
+     This is a modified jumbotron that occupies the entire horizontal space of
+     its parent.
+   </p>
+ </Container>
+</Jumbotron>
+    <Button variant="primary">Primary</Button>
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>

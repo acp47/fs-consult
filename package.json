@@ -1,10 +1,11 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "fs-consult",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Single page for Consult",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Anne Cecilie Pape <anne@kuniho.dk>",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "gatsby": "^2.3.25",
     "gatsby-image": "^2.0.39",
     "gatsby-plugin-manifest": "^2.0.29",
@@ -15,6 +16,7 @@
     "gatsby-transformer-sharp": "^2.1.18",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0"
   },
